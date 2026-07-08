@@ -1,0 +1,29 @@
+name: tfm-embalses
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - plotly
+  - jupyter
+  - jupyterlab
+  - geopandas
+  - shapely
+  - fiona
+  - pyproj
+  - scikit-learn
+  - statsmodels
+  - xgboost
+  - openpyxl
+  - requests
+  - tqdm
+  - python-dotenv
+  - pip:
+    - pyarrow
+    - tensorflow
