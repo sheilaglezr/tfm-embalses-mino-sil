@@ -11,10 +11,7 @@ data/external/*
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb_checkpoints
-
-# Notebooks exploratorios (scratch)
-notebooks/_scratch_*.ipynb
-notebooks/scratch/
+_scratch_*.ipynb
 
 # Python
 __pycache__/
