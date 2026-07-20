@@ -37,3 +37,22 @@ def num_saih(codigo):
     """
     m = re.match(r"^E(\d+)", str(codigo).strip().upper())
     return int(m.group(1)) if m else float("nan")
+
+def normalizar_id_embalse(codigo):
+    """Normaliza un identificador de embalse a la forma usada en las hojas de
+    identificación del SAIH.
+
+    Las hojas de datos rellenan el número a tres dígitos ('E005A', 'E016A') mientras
+    que las de identificación usan dos cuando hay sufijo de letra ('E05A', 'E16A').
+    El sufijo se conserva porque es lo que distingue instalaciones de un mismo embalse
+    (E16A presa, E16D central hidroeléctrica).
+
+    'E005A' -> 'E05A' | 'E016A' -> 'E16A' | 'E001' -> 'E001' | 'E03S' -> 'E03S'
+
+    Devuelve None si el código no corresponde a un embalse.
+    """
+    m = re.match(r"^E(\d+)([A-Z]*)$", str(codigo).strip().upper())
+    if not m:
+        return None
+    numero, sufijo = int(m.group(1)), m.group(2)
+    return f"E{numero:02d}{sufijo}" if sufijo else f"E{numero:03d}"
