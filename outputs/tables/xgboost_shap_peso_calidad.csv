@@ -1,0 +1,4 @@
+horizonte,cal_amonio_mgl,cal_conductividad_uscm,cal_oxigeno_mgl,cal_ph,cal_temp_agua_c,cal_turbidez_ntu,calidad_total,peso_calidad_%,mejor_cal,mejor_puesto
+7,0.0422,0.0677,0.0624,0.1229,0.0644,0.0257,0.3853,1.27,cal_ph,25
+30,0.1095,0.1789,0.2592,0.2299,0.215,0.0608,1.0532,3.16,cal_oxigeno_mgl,25
+90,0.05,0.3603,0.3835,0.3357,0.1254,0.2012,1.4562,3.98,cal_oxigeno_mgl,22

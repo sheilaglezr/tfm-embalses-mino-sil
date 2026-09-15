@@ -1,0 +1,158 @@
+num_cuenca;corriente;tipo_corr_id;cdr1;cdr2;desde;hasta;comentario;longitud;suprcnc;ambito_id
+1372;MIÑO                          ;12;0144            ;0002;ORIGEN                    ;PEQUEÑO                   ;                       ;26.4;188.68;11
+1373;PEQUEÑO                       ;12;014402          ;0000;ORIGEN                    ;MIÑO                      ;                       ;14.4;77.34;11
+1374;MIÑO                          ;12;0144            ;0201;PEQUEÑO                   ;AZUMARA                   ;                       ;1.2;2.81;11
+1375;AZUMARA                       ;12;014401          ;0000;ORIGEN                    ;MIÑO                      ;                       ;27.5;137.76;11
+1376;MIÑO                          ;12;0144            ;0104;AZUMARA                   ;ANLLO                     ;                       ;13.1;36.68;11
+1377;ANLLO                         ;12;014404          ;0000;ORIGEN                    ;MIÑO                      ;                       ;24.6;139.21;11
+1378;MIÑO                          ;12;0144            ;0403;ANLLO                     ;LEA                       ;                       ;4.3;19.99;11
+1379;LEA                           ;12;014403          ;0000;ORIGEN                    ;MIÑO                      ;                       ;21.3;151.04;11
+1380;MIÑO                          ;12;0144            ;0306;LEA                       ;TAMOGA                    ;                       ;6.4;23.13;11
+1381;TAMOGA                        ;12;014406          ;0000;ORIGEN                    ;MIÑO                      ;                       ;20.2;228.56;11
+1382;MIÑO                          ;12;0144            ;0608;TAMOGA                    ;LADRA                     ;                       ;8.9;37.66;11
+1383;LADRA                         ;12;014408          ;0002;ORIGEN                    ;LABRADA                   ;                       ;34.2;290.05;11
+1384;LABRADA                       ;12;01440802        ;0000;ORIGEN                    ;LADRA                     ;                       ;31.5;145.27;11
+1385;LADRA                         ;12;014408          ;0204;LABRADA                   ;PARGA                     ;                       ;6.5;29.7;11
+1386;PARGA                         ;12;01440804        ;0000;ORIGEN                    ;LADRA                     ;                       ;30.1;330.07;11
+1387;LADRA                         ;12;014408          ;0400;PARGA                     ;MIÑO                      ;                       ;11.5;91.28;11
+1388;MIÑO                          ;12;0144            ;0810;LADRA                     ;NARLA                     ;                       ;5.9;58.17;11
+1389;NARLA                         ;12;014410          ;0000;ORIGEN                    ;MIÑO                      ;                       ;27;205.68;11
+1390;MIÑO                          ;12;0144            ;1005;NARLA                     ;CHAMOSO                   ;                       ;19.5;193.08;11
+1391;CHAMOSO                       ;12;014405          ;0000;ORIGEN                    ;MIÑO                      ;                       ;12.2;161.46;11
+1392;MIÑO                          ;12;0144            ;0507;CHAMOSO                   ;NEIRA                     ;                       ;8.2;57.83;11
+1393;NEIRA                         ;12;014407          ;0001;ORIGEN                    ;GALLEGOS                  ;                       ;38.2;219.03;11
+1394;GALLEGOS                      ;12;01440701        ;0000;ORIGEN                    ;NEIRA                     ;                       ;13.6;37.11;11
+1395;NEIRA                         ;12;014407          ;0103;GALLEGOS                  ;SARRIA                    ;                       ;9.8;26.72;11
+1396;SARRIA                        ;12;01440703        ;0001;ORIGEN                    ;PEQUEÑO                   ;                       ;27.4;168.12;11
+1397;PEQUEÑO                       ;12;0144070301      ;0000;ORIGEN                    ;SARRIA                    ;                       ;7.9;49.84;11
+1398;SARRIA                        ;12;01440703        ;0100;PEQUEÑO                   ;NEIRA                     ;                       ;18;90.09;11
+1399;NEIRA                         ;12;014407          ;0302;SARRIA                    ;TORDEA                    ;                       ;1.1;0.73;11
+1400;TORDEA                        ;12;01440702        ;0000;ORIGEN                    ;NEIRA                     ;                       ;26.6;200.2;11
+1401;NEIRA                         ;12;014407          ;0200;TORDEA                    ;MIÑO                      ;                       ;7.8;39.36;11
+1402;MIÑO                          ;12;0144            ;0712;NEIRA                     ;FERREIRA                  ;                       ;12;65.02;11
+1403;FERREIRA                      ;12;014412          ;0000;ORIGEN                    ;MIÑO                      ;                       ;42.7;268.25;11
+1404;MIÑO                          ;12;0144            ;1214;FERREIRA                  ;MOREDA                    ;                       ;28;313.6;11
+1405;MOREDA                        ;12;014414          ;0000;ORIGEN                    ;MIÑO                      ;                       ;13.3;60.46;11
+1406;MIÑO                          ;12;0144            ;1409;MOREDA                    ;SARDIÑEIRA                ;                       ;5.8;99.97;11
+1407;SARDIÑEIRA                    ;12;014409          ;0000;ORIGEN                    ;MIÑO                      ;                       ;23.4;85.71;11
+1408;MIÑO                          ;12;0144            ;0916;SARDIÑEIRA                ;ASMA                      ;                       ;6.5;41.96;11
+1409;ASMA                          ;12;014416          ;0000;ORIGEN                    ;MIÑO                      ;                       ;21.5;93.34;11
+1410;MIÑO                          ;12;0144            ;1618;ASMA                      ;SIL                       ;                       ;23;133.07;11
+1411;BUBAL                         ;12;014418          ;0000;ORIGEN                    ;MIÑO                      ;                       ;27.6;92.95;11
+1412;SIL                           ;12;014411          ;0002;ORIGEN                    ;CABOALLES                 ;                       ;24.4;218.29;11
+1413;CABOALLES                     ;12;01441102        ;0000;ORIGEN                    ;SIL                       ;                       ;10.3;110.98;11
+1414;SIL                           ;12;014411          ;0201;CABOALLES                 ;BOEZA                     ;                       ;59.8;511.37;11
+1415;BOEZA                         ;12;01441101        ;0002;ORIGEN                    ;QUINTANA                  ;                       ;22.8;114.81;11
+1416;QUINTANA                      ;12;0144110102      ;0000;ORIGEN                    ;BOEZA                     ;                       ;6.9;21.51;11
+1417;BOEZA                         ;12;01441101        ;0201;QUINTANA                  ;TREMOR                    ;                       ;11.8;36.43;11
+1418;TREMOR                        ;12;0144110101      ;0000;ORIGEN                    ;BOEZA                     ;                       ;32.6;265.68;11
+1419;BOEZA                         ;12;01441101        ;0103;TREMOR                    ;MERUELO                   ;                       ;19.9;271.88;11
+1420;MERUELO                       ;12;0144110103      ;0000;ORIGEN                    ;BOEZA                     ;                       ;6;123.89;11
+1421;BOEZA                         ;12;01441101        ;0300;MERUELO                   ;SIL                       ;                       ;5.2;30.54;11
+1422;SIL                           ;12;014411          ;0104;BOEZA                     ;CUA                       ;                       ;17.9;187.31;11
+1423;CUA                           ;12;01441104        ;0002;ORIGEN                    ;ANCARAS                   ;                       ;45.7;310.71;11
+1424;ANCARAS                       ;12;0144110402      ;0000;ORIGEN                    ;CUA                       ;                       ;30.8;176.72;11
+1425;CUA                           ;12;01441104        ;0204;ANCARAS                   ;BURBIA                    ;                       ;20.2;203.28;11
+1426;BURBIA                        ;12;0144110404      ;0002;ORIGEN                    ;VALCARCEL                 ;                       ;31;190.07;11
+1427;VALCARCEL                     ;12;014411040402    ;0000;ORIGEN                    ;BURBIA                    ;                       ;20.9;241.31;11
+1428;BURBIA                        ;12;0144110404      ;0200;VALCARCEL                 ;CUA                       ;                       ;11.1;69.94;11
+1429;CUA                           ;12;01441104        ;0400;BURBIA                    ;SIL                       ;                       ;0.3;1.68;11
+1430;SIL                           ;12;014411          ;0406;CUA                       ;SELMO                     ;                       ;7.2;16.84;11
+1431;SELMO                         ;12;01441106        ;0000;ORIGEN                    ;SIL                       ;                       ;39.1;193.01;11
+1432;SIL                           ;12;014411          ;0603;SELMO                     ;CABRERA                   ;                       ;15;120.46;11
+1433;CABRERA                       ;12;01441103        ;0000;ORIGEN                    ;SIL                       ;                       ;65.1;562;11
+1434;SIL                           ;12;014411          ;0305;CABRERA                   ;CASOYO                    ;                       ;8.3;30.86;11
+1435;CASOYO                        ;12;01441105        ;0000;ORIGEN                    ;SIL                       ;                       ;19.7;145.6;11
+1436;SIL                           ;12;014411          ;0507;CASOYO                    ;BIBEY                     ;                       ;34.6;386.62;11
+1437;BIBEY                         ;12;01441107        ;0001;ORIGEN                    ;CAMBA                     ;                       ;53.7;282.52;11
+1438;CAMBA                         ;12;0144110701      ;0000;ORIGEN                    ;BIBEY                     ;                       ;58;271.08;11
+1439;BIBEY                         ;12;01441107        ;0103;CAMBA                     ;CONSO                     ;                       ;6.3;22.05;11
+1440;CONSO                         ;12;0144110703      ;0000;ORIGEN                    ;BIBEY                     ;                       ;21.4;127.39;11
+1441;BIBEY                         ;12;01441107        ;0302;CONSO                     ;JARES                     ;                       ;23.4;160.37;11
+1442;JARES                         ;12;0144110702      ;0002;ORIGEN                    ;MALURE                    ;                       ;15.2;48.42;11
+1443;MALURE                        ;12;014411070202    ;0000;ORIGEN                    ;JARES                     ;                       ;11.7;51.88;11
+1444;JARES                         ;12;0144110702      ;0201;MALURE                    ;CANDA                     ;                       ;1.7;5.22;11
+1445;CANDA                         ;12;014411070201    ;0000;ORIGEN                    ;JARES                     ;                       ;10.2;32.42;11
+1446;JARES                         ;12;0144110702      ;0103;CANDA                     ;CORZOS                    ;                       ;6.2;33.65;11
+1447;CORZOS                        ;12;014411070203    ;0000;ORIGEN                    ;JARES                     ;                       ;5;31.2;11
+1448;JARES                         ;12;0144110702      ;0304;CORZOS                    ;RIOMAO                    ;                       ;12;56.06;11
+1449;RIOMAO                        ;12;014411070204    ;0000;ORIGEN                    ;JARES                     ;                       ;9;26.66;11
+1450;JARES                         ;12;0144110702      ;0400;RIOMAO                    ;BIBEY                     ;                       ;14.5;41.48;11
+1451;BIBEY                         ;12;01441107        ;0205;JARES                     ;NAVEA                     ;                       ;11.1;114.97;11
+1452;NAVEA                         ;12;0144110705      ;0000;ORIGEN                    ;BIBEY                     ;                       ;38.7;253.64;11
+1453;BIBEY                         ;12;01441107        ;0500;NAVEA                     ;SIL                       ;                       ;3;3.28;11
+1454;SIL                           ;12;014411          ;0708;BIBEY                     ;LOR                       ;                       ;23.5;290.7;11
+1455;LOR                           ;12;01441108        ;0002;ORIGEN                    ;LOZARA                    ;                       ;21.5;148.05;11
+1456;LOZARA                        ;12;0144110802      ;0000;ORIGEN                    ;LOR                       ;                       ;23.9;107.96;11
+1457;LOR                           ;12;01441108        ;0200;LOZARA                    ;SIL                       ;                       ;30.3;114.23;11
+1458;SIL                           ;12;014411          ;0809;LOR                       ;EDO                       ;                       ;12.8;74.81;11
+1459;EDO                           ;12;01441109        ;0000;ORIGEN                    ;SIL                       ;                       ;13.6;150.05;11
+1460;SIL                           ;12;014411          ;0911;EDO                       ;MAO                       ;                       ;5.1;17.92;11
+1461;MAO                           ;12;01441111        ;0000;ORIGEN                    ;SIL                       ;                       ;31.3;127.77;11
+1462;SIL                           ;12;014411          ;1110;MAO                       ;CABE                      ;                       ;17.8;89.64;11
+1463;CABE                          ;12;01441110        ;0002;ORIGEN                    ;MAO                       ;                       ;19.8;154.86;11
+1464;MAO                           ;12;0144111002      ;0000;ORIGEN                    ;CABE                      ;                       ;32.9;197.68;11
+1465;CABE                          ;12;01441110        ;0200;MAO                       ;SIL                       ;                       ;29.8;383.57;11
+1466;SIL                           ;12;014411          ;1000;CABE                      ;MIÑO                      ;                       ;7.5;30.95;11
+1467;MIÑO                          ;12;0144            ;1113;BUBAL                     ;LOÑA                      ;                       ;17.3;136.16;11
+1468;LOÑA                          ;12;014413          ;0000;ORIGEN                    ;MIÑO                      ;                       ;26.7;135.51;11
+1469;MIÑO                          ;12;0144            ;1315;LOÑA                      ;BARBAÑA                   ;                       ;1.8;2.99;11
+1470;BARBAÑA                       ;12;014415          ;0000;ORIGEN                    ;MIÑO                      ;                       ;23.6;166.84;11
+1471;MIÑO                          ;12;0144            ;1520;BARBAÑA                   ;BARBANTIÑO                ;                       ;11.8;72.15;11
+1472;BARBANTIÑO                    ;12;014420          ;0000;ORIGEN                    ;MIÑO                      ;                       ;22.6;175.28;11
+1473;MIÑO                          ;12;0144            ;2022;BARBANTIÑO                ;AVIA                      ;                       ;16.8;120.36;11
+1474;AVIA                          ;12;014422          ;0001;ORIGEN                    ;CARDELLE                  ;                       ;11.1;59.35;11
+1475;CARDELLE                      ;12;01442201        ;0000;ORIGEN                    ;AVIA                      ;                       ;22.2;86.74;11
+1476;AVIA                          ;12;014422          ;0103;CARDELLE                  ;VIÑAO                     ;                       ;8.6;58.99;11
+1477;VIÑAO                         ;12;01442203        ;0000;ORIGEN                    ;AVIA                      ;                       ;27;139.7;11
+1478;AVIA                          ;12;014422          ;0305;VIÑAO                     ;ARENTEIROS                ;                       ;2.1;4.25;11
+1479;ARENTEIRO                     ;12;01442205        ;0000;ORIGEN                    ;AVIA                      ;                       ;28.6;184.46;11
+1480;AVIA                          ;12;014422          ;0500;ARENTEIROS                ;MIÑO                      ;                       ;16.3;137.81;11
+1481;MIÑO                          ;12;0144            ;2217;AVIA                      ;ARNOYA                    ;                       ;4;66.35;11
+1482;ARNOYA                        ;12;014417          ;0001;ORIGEN                    ;ORILLE                    ;                       ;61.3;430.44;11
+1483;ORILLE                        ;12;01441701        ;0000;ORIGEN                    ;ARNOYA                    ;                       ;18.2;95.6;11
+1484;ARNOYA                        ;12;014417          ;0103;ORILLE                    ;TUÑO                      ;                       ;9.1;28.86;11
+1485;TUÑO                          ;12;01441703        ;0000;ORIGEN                    ;ARNOYA                    ;                       ;18.8;66.05;11
+1486;ARNOYA                        ;12;014417          ;0300;TUÑO                      ;MIÑO                      ;                       ;20;125.43;11
+1487;MIÑO                          ;12;0144            ;1719;ARNOYA                    ;DEVA                      ;                       ;13.3;41.8;11
+1488;DEVA                          ;12;014419          ;0001;ORIGEN                    ;CRESPO                    ;                       ;15.4;65.54;11
+1489;CRESPO                        ;2;01441901        ;0000;ORIGEN                    ;DEVA                      ;                       ;11.8;27.26;11
+1490;DEVA                          ;12;014419          ;0100;CRESPO                    ;MIÑO                      ;                       ;6.2;37.72;11
+1491;MIÑO                          ;12;0144            ;1921;DEVA                      ;BARJAS                    ;                       ;4.9;10.94;11
+1492;BARJAS                        ;12;014421          ;0000;ORIGEN                    ;MIÑO                      ;                       ;10.1;16.62;11
+1493;MIÑO                          ;12;0144            ;2124;BARJAS                    ;DEVA                      ;                       ;11.9;50.05;11
+1494;DEVA                          ;12;014424          ;0000;ORIGEN                    ;MIÑO                      ;                       ;23.7;92.03;11
+1495;MIÑO                          ;12;0144            ;2426;DEVA                      ;TEA                       ;                       ;24;100.97;11
+1496;TEA                           ;12;014426          ;0002;ORIGEN                    ;BARBEN                    ;                       ;30.3;220.06;11
+1497;BARBEN                        ;12;01442602        ;0000;ORIGEN                    ;TEA                       ;                       ;11.5;38.44;11
+1498;TEA                           ;12;014426          ;0201;BARBEN                    ;UMA                       ;                       ;8.2;50.56;11
+1499;UMA                           ;12;01442601        ;0000;ORIGEN                    ;TEA                       ;                       ;17.2;58.01;11
+1500;TEA                           ;12;014426          ;0100;UMA                       ;MIÑO                      ;                       ;11.4;44.44;11
+1501;MIÑO                          ;12;0144            ;2628;TEA                       ;LOURO                     ;                       ;8.5;47.52;11
+1502;LOURO                         ;12;014428          ;0000;ORIGEN                    ;MIÑO                      ;                       ;29.6;156.61;11
+1503;MIÑO                          ;12;0144            ;2830;LOURO                     ;CARBALLO                  ;                       ;25.6;150.36;11
+1504;CARBALLO                      ;12;014430          ;0000;ORIGEN                    ;MIÑO                      ;                       ;21.9;76.47;11
+1505;MIÑO                          ;12;0144            ;3099;CARBALLO                  ;MAR                       ;                       ;5.3;16.69;11
+1507;LIMIA                         ;12;0145            ;0001;ORIGEN                    ;FARAMONTAOS               ;                       ;8.1;115.68;11
+1508;FARAMONTAOS                   ;12;014501          ;0000;ORIGEN                    ;LIMIA                     ;                       ;16.1;101.44;11
+1509;LIMIA                         ;12;0145            ;0102;FARAMONTAOS               ;LAGUNA DE ANTELA          ;                       ;9.8;129.14;11
+1510;LAGUNA DE ANTELA              ;12;014502          ;0000;ORIGEN                    ;LIMIA                     ;                       ;17.3;199.75;11
+1511;LIMIA                         ;12;0145            ;0203;LAGUNA DE ANTELA          ;SALAS                     ;                       ;35.3;372.87;11
+1512;SALAS                         ;12;014503          ;0000;ORIGEN                    ;LIMIA                     ;                       ;31.1;216.47;11
+1513;LIMIA                         ;12;0145            ;0388;SALAS                     ;FRONTERA                  ;                       ;9.6;191.51;11
+1922;CALDO                         ;12;;;;;SIN CLASIFICAR         ;;0;11
+1923;BARREDOS                      ;2;;;;;SIN CLASIFICAR         ;;0;11
+1931;PORTO DO MEDIO                ;10;;;;;SIN CLASIFICAR         ;;0;11
+1932;VALDESIRGAS                   ;12;;;;;SIN CLASIFICAR         ;;0;11
+1933;VALSECO                       ;2;;;;;SIN CLASIFICAR         ;;0;11
+1934;BAYO                          ;12;;;;;SIN CLASIFICAR         ;;0;11
+1955;REAL, EL                      ;2;;;;;SIN CLASIFICAR         ;;0;11
+1957;SAN XOAN O CANLE-ESCURO       ;12;;;;;SIN CLASIFICAR         ;;0;11
+1958;MOURELAS                      ;12;;;;;SIN CLASIFICAR         ;;0;11
+1959;CEA                           ;12;;;;;SIN CLASIFICAR         ;;0;11
+1960;ANLLARINOS                    ;12;;;;;SIN CLASIFICAR         ;;0;11
+1966;SAN MIGUEL                    ;12;;;;;SIN CLASIFICAR         ;;32.9;11
+1973;CENZA                         ;12;;;;;SIN CLASIFICAR         ;0;0;11
+1974;EDRADA                        ;12;;;;;SIN CLASIFICAR         ;0;0;11
+1975;EIROS                         ;12;;;;;SIN CLASIFICAR         ;0;0;11
+1976;CAMPAÑANA                     ;12;;;;;SIN CLASIFICAR         ;0;0;11

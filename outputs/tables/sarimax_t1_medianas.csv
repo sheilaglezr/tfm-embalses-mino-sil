@@ -1,0 +1,10 @@
+Horizonte,Escenario,RMSE,MAE,NSE
+7,Base,4.299,2.692,0.639
+7,Base + calidad,4.289,2.714,0.638
+7,Persistencia,4.42,2.877,0.634
+30,Base,7.171,4.882,-0.274
+30,Base + calidad,7.189,4.849,-0.27
+30,Persistencia,8.122,6.062,-0.41
+90,Base,11.036,9.287,-0.429
+90,Base + calidad,11.057,9.303,-0.516
+90,Persistencia,11.129,8.974,-0.891
