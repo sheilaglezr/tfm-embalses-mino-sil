@@ -20,6 +20,8 @@ __pycache__/
 *.pyo
 *.pyd
 .env
+.env.*
+*.env.bak
 .venv
 env/
 venv/
